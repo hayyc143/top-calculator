@@ -27,7 +27,10 @@ main {
  text-align: right;
  background-color: #fff2f0;
  padding-bottom: 50px; 
+ display: flex; 
 }
+
+
 
 .buttons {
   display: flex;
