@@ -10,15 +10,18 @@
   <body>
     <main class="main">
       <div class="container">
-      <div class="display">Hello this is the calculator</div>
+      <div class="display">
+        <h1 class ="currDisplay"></h1>
+        <p class="prevDisplay"></p>
+      </div>
       <div class="buttons">
         <div class="numBtns">
           <button class="clearAll">AC</button>
-          <button class="clearCurrent">C</button>
+          <button class="clearCurr">C</button>
           <button class="modulo">%</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
+          <button id="7">7</button>
+          <button id="8">8</button>
+          <button id="9">9</button>
           <button>4</button>
           <button>5</button>
           <button>6</button>
@@ -27,17 +30,18 @@
           <button>3</button>
           <button>0</button>
           <button>.</button>
-          <img src="images/clipart497449.png" alt="A pink magical girl like bow" width="70px" height="70px">
+          <a href=""><img src="images/clipart497449.png" alt="A pink magical girl like bow" width="70px" height="70px"></a>
         </div>
         <div class="operationsBtns">
           <button class="divide">÷</button>
-          <button class="multiplication">x</button>
-          <button class="addition">+</button>
-          <button class="subtraction">-</button>
+          <button class="multiply">x</button>
+          <button class="add">+</button>
+          <button class="subtract">-</button>
           <button class="equals">=</button>
         </div>
       </div>
     </div>
     </main>
+    <script src="script.js"></script>
   </body>
 </html>
