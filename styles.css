@@ -24,12 +24,15 @@ main {
   border: 1px solid;
  margin-bottom: 20px;
  padding-right: 5px; 
- text-align: right;
  background-color: #fff2f0;
  padding-bottom: 50px; 
  display: flex; 
+ flex-direction: column;
 }
 
+h1, p {
+  text-align: right;
+}
 
 
 .buttons {
